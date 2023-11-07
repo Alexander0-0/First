@@ -54,7 +54,33 @@ Console.WriteLine("Средний балл = " + ("{0,6:f1}"), ((a+b+c+d+e) / 5)
 */
 
  //Task6
- 
+/*Console.WriteLine("Введите целое трёхзначное число");
+if (int.TryParse(Console.ReadLine(), out var number))
+{
+    if (number > 99 && number < 1000)
+    {
+        var f = number % 10;
+        var s = number / 10 % 10;
+        var m = number / 100;
+        Console.WriteLine("Количество единиц = " + f);
+        Console.WriteLine("Количество десятков = " + s);
+        Console.WriteLine("Количество сотен = " + m);
+    }
+    else if (number < -99 && number > -1000)
+    {
+        var t = number % 10;
+        var g = number / 10 % 10;
+        var k = number / 100;
+        Console.WriteLine("Количество единиц = " + t);
+        Console.WriteLine("Количество десятков = " + g);
+        Console.WriteLine("Количество сотен = " + k);
+    }
+    else
+    {
+        Console.WriteLine("Вы ввели не трёхзначное число");
+     }
+}
+*/
 
 
 
