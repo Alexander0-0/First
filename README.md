@@ -32,8 +32,8 @@ Console.WriteLine("Введите ширину боссейна (в метрах
 float b = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите глубину боссейна (в метрах)");
 float c = Convert.ToSingle(Console.ReadLine());
-Console.WriteLine("Максимальный объём воды, который может поместиться в бассейн = " + ("{0,6:f2}"), (a * b * c) + " " + "метров кубических");
-Console.WriteLine("Площадь водной поверхности = " + ("{0,6:f2}"), (a * b) + " " + "метров квадратных");
+Console.WriteLine("Максимальный объём воды, который может поместиться в бассейн = " + (a * b * c) + " " + "метров кубических");
+Console.WriteLine("Площадь водной поверхности = " + (a * b) + " " + "метров квадратных");
 double d = a * b;
 double e = 0.2 * 0.25;
 Console.WriteLine("Для укладки дна бассейна потребуется = " + (d/e) + " " + "шт." );
